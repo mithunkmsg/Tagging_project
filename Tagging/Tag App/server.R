@@ -1,4 +1,5 @@
 library(shiny)
+keyword<-read.csv("key.csv")
 keyword$KEYWORD<-as.character(keyword$KEYWORD)
 shinyServer(
   function(input,output)
