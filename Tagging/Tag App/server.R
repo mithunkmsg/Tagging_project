@@ -1,5 +1,4 @@
 library(shiny)
-keyword<-read.csv("E:/DATA SCIENCE/credihealth/key.csv")
 keyword$KEYWORD<-as.character(keyword$KEYWORD)
 shinyServer(
   function(input,output)
